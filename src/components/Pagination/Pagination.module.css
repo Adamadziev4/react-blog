@@ -1,0 +1,20 @@
+.root {
+  font-size: 22px;
+  color: white;
+}
+.root ul {
+  display: flex;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.root ul li {
+  list-style-type: none;
+  background-color: rgb(117, 144, 240);
+  padding: 3px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.root ul li.active {
+  background-color: rgb(47, 65, 131);
+}

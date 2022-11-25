@@ -1,0 +1,43 @@
+.root {
+  display: grid;
+  justify-items: center;
+
+  padding-bottom: 70px;
+}
+
+.title {
+  color: rgb(82, 82, 243);
+  font-size: 42px;
+}
+
+.description {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #333;
+}
+
+.search {
+  width: 15%;
+  margin-top: 40px;
+  position: relative;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+.search input {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 7px 10px;
+  width: 85%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+.search svg {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+
+  cursor: pointer;
+}
